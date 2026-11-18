@@ -25,9 +25,7 @@ def count_vowels_consonants(word):
     return vowel_count, consonant_count
 
 
-user_input = input("enter a word: ")
-if user_input == "":
-    user_input = "radar"
+user_input = "radar"
 print(palindrome(user_input))
 
 print(count_vowels_consonants(user_input))
