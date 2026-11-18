@@ -26,6 +26,8 @@ def count_vowels_consonants(word):
 
 
 user_input = input("enter a word: ")
+if ! user_input:
+    user_input = "radar"
 print(palindrome(user_input))
 
 print(count_vowels_consonants(user_input))
